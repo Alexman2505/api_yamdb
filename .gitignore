@@ -148,6 +148,7 @@ dmypy.json
 # папки со статикой и медиа
 media/
 
+<<<<<<< HEAD
 # отправленные письма
 sent_emails/
 
@@ -157,3 +158,5 @@ sent_emails
 
 **/migrations/*.py
 *.sqlite3
+=======
+>>>>>>> 43289fea0df5f2f6e2693aa97ce688c7dee7401a

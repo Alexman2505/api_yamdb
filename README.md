@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Проект YaMDb
 ## Описание:
 
@@ -50,3 +51,7 @@ rm db.sqlite3 && python manage.py migrate && python manage.py add_data
 - Python
 - Django
 - SQLite
+=======
+# api_yamdb
+api_yamdb
+>>>>>>> 43289fea0df5f2f6e2693aa97ce688c7dee7401a
