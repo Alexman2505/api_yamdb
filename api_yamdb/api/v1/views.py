@@ -79,7 +79,7 @@ class SignUPView(APIView):
         user.confirmation_code = (
             confirmation_code  # Присвоение значения confirmation_code
         )
-        user.save()  # Сохранение пользователя с заполненным cnfirmation_code
+        user.save()  # Сохранение пользователя с заполненным confirmation_code
         send_mail(
             subject='Confirmation code',
             message=f'{confirmation_code}',
